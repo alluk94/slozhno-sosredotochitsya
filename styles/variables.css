@@ -1,4 +1,29 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
+:root {
+/* sizes */
+--size-h1: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+--size-def: 1.125rem; /* 18px */
+
+/* weights */
+--weight-def: 400;
+--weight-bold: 700;
+
+/* colors */
+--clr-accent: #ff0070;
+--clr-active: #ff0070;
+--clr-button: #ff0070;
+--clr-decoration: #ff0070;
+--clr-accent-hover: rgba(255, 0, 112, 0.40);
+--clr-button-hover: rgba(255, 0, 112, 0.40);
+--clr-text: #f1b2ce;
+--clr-text-shadow: #ff0070;
+--clr-title: #db00ff;
+--clr-title-shadow: #ff0070;
+--clr-heading: #000028;
+--clr-bck: #000028;
+
+/* background image */
+--img-bck: url(../images/cover-image-dark.png);
+
+/* hide or show decorative element */
+--visibility: visible;
+}
