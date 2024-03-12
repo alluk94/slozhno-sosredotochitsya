@@ -2,7 +2,7 @@
 
 .page {
   font-family: 'IBM Plex Mono', sans-serif;
-  font-size: var(--size-def);
+  font-size: var(--size-default);
   line-height: 130%;
   color: var(--clr-text);
   background-color: var(--clr-bck);
@@ -17,6 +17,8 @@
 /* START HEADER STYLES */
 
 .header {
+  min-height: 668px;
+  height: 100vh;
   padding: 10px;
   display: grid;
   grid-template-rows: 1fr min-content 1fr;
@@ -27,7 +29,6 @@
 /* decoration */
 
 .decorated-zone {
-  height: 100vh;
   position: relative;
 }
 
@@ -88,7 +89,7 @@
 }
 
 .header__theme-menu-button {
-  font-size: var(--size-def);
+  font-size: var(--size-default);
   color: var(--clr-button);
   line-height: normal;
   background: none;
@@ -111,20 +112,21 @@
 
 .header__theme-menu-button_active {
   border: 1px solid var(--clr-active);
+  pointer-events: none;
 }
 
 /* end menu button styles */
 
 .header__title {
   color: var(--clr-title);
-  font-size: var(--size-h1);
+  font-size: var(--size-main-title);
   line-height: 82.5%;
   text-shadow: 4px 4px 0px var(--clr-title-shadow);
 }
 
 .header__subtitle-text {
   color: var(--clr-article-header);
-  font-size: var(--size-def);
+  font-size: var(--size-default);
   background-color: var(--clr-accent);
 }
 
@@ -171,7 +173,7 @@
 }
 
 .article__header-step {
-  font-weight: var(--weight-def);
+  font-weight: var(--weight-default);
 }
 
 /* start link styles */
@@ -215,6 +217,8 @@
 /* START FOOTER STYLES */
 
 .footer {
+  min-height: 668px;
+  height: 100vh;
   margin-top: 1.875rem;
   display: flex;
   justify-content: center;
@@ -223,7 +227,7 @@
 
 .footer__title {
   color: var(--clr-title);
-  font-size: var(--size-h1);
+  font-size: var(--size-main-title);
   line-height: 82.5%;
   text-shadow: 2px 2px 0px var(--clr-title-shadow);
 }
@@ -237,7 +241,7 @@
   /* page styles */
 
   :root {
-    --size-h1: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
+    --size-main-title: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
   }
 
   .main {
@@ -279,7 +283,7 @@
   .header__title {
     justify-self: start;
     margin-left: -1.25rem;
-    font-size: var(--size-h1);
+    font-size: var(--size-main-title);
   }
 
   .header__subtitle-text {

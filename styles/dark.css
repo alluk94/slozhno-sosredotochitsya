@@ -1,0 +1,22 @@
+.page.theme_dark {
+  /* colors */
+--clr-accent: #ff0070;
+--clr-active: #ff0070;
+--clr-button: #ff0070;
+--clr-decoration: #ff0070;
+--clr-accent-hover: rgba(255, 0, 112, 0.40);
+--clr-button-hover: rgba(255, 0, 112, 0.40);
+--clr-text: #f1b2ce;
+--clr-text-shadow: #ff0070;
+--clr-title: #db00ff;
+--clr-title-shadow: #ff0070;
+--clr-heading: #ff0070;
+--clr-article-header: #000028;
+--clr-bck: #000028;
+
+/* background image */
+--img-bck: url(../images/cover-image-dark.png);
+
+/* hide or show decorative element */
+--visibility: visible;
+}

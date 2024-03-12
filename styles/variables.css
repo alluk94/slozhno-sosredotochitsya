@@ -1,10 +1,10 @@
 :root {
 /* sizes */
---size-h1: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
---size-def: 1.125rem; /* 18px */
+--size-main-title: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
+--size-default: 1.125rem; /* 18px */
 
 /* weights */
---weight-def: 400;
+--weight-default: 400;
 --weight-bold: 700;
 
 /* colors */
