@@ -4,9 +4,9 @@
   font-family: 'IBM Plex Mono', sans-serif;
   font-size: var(--size-default);
   line-height: 130%;
-  color: var(--clr-text);
-  background-color: var(--clr-bck);
-  background-image: var(--img-bck);
+  color: var(--color-text);
+  background-color: var(--color-background);
+  background-image: var(--img-background);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -35,7 +35,7 @@
 .decorated-rec {
   visibility: var(--visibility);
   position: absolute;
-  color: var(--clr-decoration);
+  color: var(--color-decoration);
   text-transform: uppercase;
   inset-block-start: 11px;
   inset-inline-end: 38px;
@@ -47,8 +47,8 @@
   width: 5px;
   height: 5px;
   border-radius: 50%;
-  background-color: var(--clr-decoration);
-  box-shadow: 0px 0px 4px 4px var(--clr-decoration);
+  background-color: var(--color-decoration);
+  box-shadow: 0px 0px 4px 4px var(--color-decoration);
   inset-block-start: 9px;
   inset-inline-end: -18px;
 }
@@ -60,8 +60,8 @@
   inset-block-start: 10px;
   inline-size: 25px;
   block-size: 25px;
-  border-inline-end: 1px solid var(--clr-decoration);
-  border-block-start: 1px solid var(--clr-decoration);
+  border-inline-end: 1px solid var(--color-decoration);
+  border-block-start: 1px solid var(--color-decoration);
 }
 
 .decorated-zone::after {
@@ -71,8 +71,8 @@
   inset-block-end: 10px;
   inline-size: 25px;
   block-size: 25px;
-  border-inline-start: 1px solid var(--clr-decoration);
-  border-block-end: 1px solid var(--clr-decoration);
+  border-inline-start: 1px solid var(--color-decoration);
+  border-block-end: 1px solid var(--color-decoration);
 }
 
 /* start menu button styles */
@@ -90,7 +90,7 @@
 
 .header__theme-menu-button {
   font-size: var(--size-default);
-  color: var(--clr-button);
+  color: var(--color-button);
   line-height: normal;
   background: none;
   padding: 2px 13px;
@@ -99,7 +99,7 @@
 }
 
 .header__theme-menu-button:hover {
-  outline: 1px solid var(--clr-button-hover);
+  outline: 1px solid var(--color-button-hover);
 }
 
 .header__theme-menu-button:focus {
@@ -107,27 +107,27 @@
 }
 
 .header__theme-menu-button:focus-visible {
-  border-bottom: 1px solid var(--clr-accent);
+  border-bottom: 1px solid var(--color-accent-menu);
 }
 
 .header__theme-menu-button_active {
-  border: 1px solid var(--clr-active);
+  border: 1px solid var(--color-active);
   pointer-events: none;
 }
 
 /* end menu button styles */
 
 .header__title {
-  color: var(--clr-title);
+  color: var(--color-title);
   font-size: var(--size-main-title);
   line-height: 82.5%;
-  text-shadow: 4px 4px 0px var(--clr-title-shadow);
+  text-shadow: 4px 4px 0px var(--color-title-shadow);
 }
 
 .header__subtitle-text {
-  color: var(--clr-article-header);
+  color: var(--color-article-header);
   font-size: var(--size-default);
-  background-color: var(--clr-accent);
+  background-color: var(--color-accent);
 }
 
 /* END HEADER STYLES */
@@ -153,12 +153,12 @@
 }
 
 .section__header {
-  color: var(--clr-heading);
+  color: var(--color-heading);
 }
 
 .section__header-subtitle {
-  color: var(--clr-article-header);
-  background-color: var(--clr-accent);
+  color: var(--color-article-header);
+  background-color: var(--color-accent);
 }
 
 .article {
@@ -168,8 +168,8 @@
 }
 
 .article__header {
-  color: var(--clr-article-header);
-  background-color: var(--clr-accent);
+  color: var(--color-article-header);
+  background-color: var(--color-accent);
 }
 
 .article__header-step {
@@ -180,11 +180,11 @@
 
 .article__link {
   text-decoration: none;
-  text-shadow: 2px 2px var(--clr-text-shadow);
+  text-shadow: 2px 2px var(--color-text-shadow);
 }
 
 .article__link:hover {
- border-bottom: 1px solid var(--clr-text);
+ border-bottom: 1px solid var(--color-text);
 }
 
 .article__link:focus {
@@ -192,7 +192,7 @@
 }
 
 .article__link:focus-visible {
-  outline: 1px solid var(--clr-text);
+  outline: 1px solid var(--color-text);
 }
 
 /* end link styles */
@@ -226,10 +226,10 @@
 }
 
 .footer__title {
-  color: var(--clr-title);
+  color: var(--color-title);
   font-size: var(--size-main-title);
   line-height: 82.5%;
-  text-shadow: 2px 2px 0px var(--clr-title-shadow);
+  text-shadow: 2px 2px 0px var(--color-title-shadow);
 }
 
 /* END FOOTER STYLES */

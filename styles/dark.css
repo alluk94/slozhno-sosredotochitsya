@@ -1,21 +1,21 @@
 .page.theme_dark {
   /* colors */
---clr-accent: #ff0070;
---clr-active: #ff0070;
---clr-button: #ff0070;
---clr-decoration: #ff0070;
---clr-accent-hover: rgba(255, 0, 112, 0.40);
---clr-button-hover: rgba(255, 0, 112, 0.40);
---clr-text: #f1b2ce;
---clr-text-shadow: #ff0070;
---clr-title: #db00ff;
---clr-title-shadow: #ff0070;
---clr-heading: #ff0070;
---clr-article-header: #000028;
---clr-bck: #000028;
+--color-accent: #ff0070;
+--color-active: #ff0070;
+--color-button: #ff0070;
+--color-decoration: #ff0070;
+--color-accent-hover: rgba(255, 0, 112, 0.40);
+--color-button-hover: rgba(255, 0, 112, 0.40);
+--color-text: #f1b2ce;
+--color-text-shadow: #ff0070;
+--color-title: #db00ff;
+--color-title-shadow: #ff0070;
+--color-heading: #ff0070;
+--color-article-header: #000028;
+--color-background: #000028;
 
 /* background image */
---img-bck: url(../images/cover-image-dark.png);
+--img-background: url(../images/cover-image-dark.png);
 
 /* hide or show decorative element */
 --visibility: visible;

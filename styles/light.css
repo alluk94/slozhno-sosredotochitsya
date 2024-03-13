@@ -1,20 +1,22 @@
 .page.theme_light {
 /* colors */
---clr-accent: #ff8dcb;
---clr-active: #353430;
---clr-button: #353430;
---clr-decoration: #353430;
---clr-accent-hover: rgba(50, 49, 45, 0.40);
---clr-button-hover: rgba(50, 49, 45, 0.40);
---clr-text: #353430;
---clr-text-shadow: #ff8dcb;
---clr-title: #ffc2e6;
---clr-title-shadow: #ff0070;
---clr-heading: #353430;
---clr-bck: #ffeef6;
+--color-accent: #ff8dcb;
+--color-accent-menu: #ff0070;
+--color-article-header: #353430;
+--color-active: #353430;
+--color-button: #353430;
+--color-decoration: #353430;
+--color-accent-hover: rgba(50, 49, 45, 0.40);
+--color-button-hover: rgba(50, 49, 45, 0.40);
+--color-text: #353430;
+--color-text-shadow: #ff8dcb;
+--color-title: #ffc2e6;
+--color-title-shadow: #ff0070;
+--color-heading: #353430;
+--color-background: #fff1f7;
 
 /* background image */
---img-bck: url(../images/cover-image-light.png);
+--img-background: url(../images/cover-image-light.png);
 
 /* hide or show element */
 --visibility: hidden;
@@ -23,21 +25,23 @@
 @media (prefers-color-scheme: light) {
   .page {
       /* colors */
-    --clr-accent: #ff8dcb;
-    --clr-active: #353430;
-    --clr-button: #353430;
-    --clr-decoration: #353430;
-    --clr-accent-hover: rgba(50, 49, 45, 0.40);
-    --clr-button-hover: rgba(50, 49, 45, 0.40);
-    --clr-text: #353430;
-    --clr-text-shadow: #ff8dcb;
-    --clr-title: #ffc2e6;
-    --clr-title-shadow: #ff0070;
-    --clr-heading: #353430;
-    --clr-bck: #ffeef6;
+    --color-accent: #ff8dcb;
+    --color-accent-menu: #ff0070;
+    --color-article-header: #353430;
+    --color-active: #353430;
+    --color-button: #353430;
+    --color-decoration: #353430;
+    --color-accent-hover: rgba(50, 49, 45, 0.40);
+    --color-button-hover: rgba(50, 49, 45, 0.40);
+    --color-text: #353430;
+    --color-text-shadow: #ff8dcb;
+    --color-title: #ffc2e6;
+    --color-title-shadow: #ff0070;
+    --color-heading: #353430;
+    --color-background: #fff1f7;
 
     /* background image */
-    --img-bck: url(../images/cover-image-light.png);
+    --img-background: url(../images/cover-image-light.png);
 
     /* hide or show element */
     --visibility: hidden;
